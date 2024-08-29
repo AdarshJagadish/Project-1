@@ -101,11 +101,9 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .line{
   border-bottom: 2px solid #333638;
   margin-left: -20px;
-  display: block;
 }
-.Rimage{
-  width: 547px;
-  margin-left:10px ;
+.Rimage{ 
+  height: 349PX;
 }
 .subm{
   margin: 0px 100px 100px 0px;
@@ -113,4 +111,22 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .fl2{
   display: flex;
   flex-direction: column;
+  margin: 0px 444px 0px 20px;
+}
+.edwin{
+  display:flex;
+}
+.space{
+  line-height: 20px;
+}
+.patty2{
+width: 180px;
+margin-left: -3px;
+}
+.column{
+  width: 182px;
+  margin-right: 21px;
+}
+.cake2{
+  width: 650px;
 }
