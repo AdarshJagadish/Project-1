@@ -1,0 +1,35 @@
+.main{
+    margin: 0px 0px 0px 525px;
+    
+}
+.ball{
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: ease-in;
+
+}
+.base{
+width: 120px;
+height: 20px;
+background-color: black;
+margin-top: 200px;
+}
+@keyframes animation1 {
+    0%{top: 50px; }
+    10%{top: 100px; }
+    20%{top: 150px;}
+    30%{top: 200px; }
+    40%{top: 50px;}
+    50%{top: 100px; }
+    60%{top: 150px; }
+    70%{top: 200px;}
+    80%{top: 50px; }
+    90%{top: 100px;}
+    100%{top: 150px;}
+}
