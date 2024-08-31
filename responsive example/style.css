@@ -1,0 +1,62 @@
+.bb {
+    background-color: black;
+    height: 200px;
+    margin: 30px;
+}
+
+.gb {
+    background-color: rgb(0, 255, 179);
+    height: 300px;
+    margin: 30px;
+}
+
+.brb {
+    background-color: rgb(39, 43, 32);
+    width: 617px;
+    height: 300px;
+    margin: 30px;
+}
+
+.blocks {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+    .brb {
+        background-color: rgb(39, 43, 32);
+        width: 256px;
+        height: 400px;
+        margin: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px) {
+    .bb {
+        background-color: black;
+        height: 20px;
+        width: 120px;
+        margin: 10px;
+    }
+    
+    .gb {
+        background-color: rgb(0, 255, 179);
+        height: 60px;
+        width: 120px;
+        margin: 10px;
+    }
+    
+    .brb {
+        background-color: rgb(39, 43, 32);
+        width: 120px;
+        height: 60px;
+        margin: 10px;
+    }
+    .blocks {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+}
