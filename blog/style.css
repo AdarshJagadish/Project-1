@@ -151,7 +151,7 @@ li a {
 }
 .footer{
   background-color: rgb(33 37 41);
-  margin: 10px 0px -45px -200px;
+  margin: 10px 0px -45px -100px;
   width: 2500px;
 }
 .link{
@@ -159,7 +159,7 @@ li a {
   text-decoration: underline;
 }
 .achu{
-  margin-left: 600px;
+  margin-left: 450px;
   color: white;
 }
 .column{
@@ -174,7 +174,7 @@ li a {
 
 .footer2{
   background-color: rgb(122, 116, 116);
-  margin-left: -350px;
+  margin-left: -90px;
   width: 2500px;
   height: 100px;
 }
@@ -184,7 +184,7 @@ li a {
   padding: 5px;
 }
 .copyright{
-  margin-left: 750px; 
+  margin-left: 400px; 
   padding-top: 10px;
   color: white;
   line-height: 25px;
