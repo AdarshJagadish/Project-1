@@ -1,0 +1,20 @@
+.title-font {
+    font-family: "Caesar Dressing", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: x-large;
+    color: black;
+  }
+  
+
+.container-fluid {
+  width: 65%;
+}
+.ver{
+    display: flex;
+    flex-direction: column;
+}
+.hor{
+    display: flex;
+    flex-direction: row;
+}
