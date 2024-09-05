@@ -10,11 +10,3 @@
 .container-fluid {
   width: 65%;
 }
-.ver{
-    display: flex;
-    flex-direction: column;
-}
-.hor{
-    display: flex;
-    flex-direction: row;
-}
