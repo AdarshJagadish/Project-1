@@ -1,0 +1,10 @@
+a=int(input("Enter a NUmber"))
+b=int(input("Enter a NUmber"))
+add=a+b
+sub=a-b
+div=a/b
+mul=a*b
+print("A+B=",add)
+print("A-B=",sub)
+print("A/B=",div)
+print("A*B=",mul)
