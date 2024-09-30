@@ -3,7 +3,8 @@ a{
     text-decoration: none;
 }
 .nav{
-    height: 95px;
+    height: 80px;
+    width: 100%;
     padding: 0px 400px 0px 397px;
     display: inline-flex;
     flex-direction: row;
@@ -16,11 +17,12 @@ a{
 }
 .search{
     width: 650px;
-    height: 50px;
+    height: 40px;
     margin: 20px 395px 10px 5px;
     border-color: rgb(214, 214, 240);
     border-top-color: rgb(255, 255, 255);
     border-left-color: rgb(255, 255, 255);
+    border-radius: 5px;
     font-size: large;
 }
 .schicon{
@@ -36,18 +38,20 @@ a{
 .btn{
     background-color: rgb(247, 45, 79);
     color: white;
-    height: 35px;
-    margin-top: 20px;
-    padding: 0px 18px;
+    height: 30px;
+    margin-top: 25px;
+    padding: 0px 15px;
 }
 .menu{
     display: inline-block;
     flex-direction: column;
 }
 .section2{
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(235, 235, 235);
+    height: 50px;
     padding: 0px 0px 0px 390px;
     font-size: large;
+    margin-top: -6px;
 }
 .col{
     display: flex;
@@ -57,4 +61,15 @@ li{
     display: inline-block;
     padding-top: 20px;
     
+}
+.border{
+
+    border-bottom: 2px;
+    border-color: black;
+    border-style: solid;
+}
+.section3{
+    background-color: rgb(117, 117, 117)223, 223, 223);
+    margin: 0px;
+    padding: 0px
 }
