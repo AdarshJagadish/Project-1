@@ -57,7 +57,11 @@ a{
     font-size: large;
     margin-top: -6px;
 }
-.col{
+.cols{
+    display: flex;
+    flex-direction: column;
+}
+.rows{
     display: flex;
     flex-direction: row;
 }
@@ -104,12 +108,50 @@ li{
     color: rgb(90, 88, 88);
 }
 .section5{
-    color: white;
+    color: #ffffff;
     margin-top: 50px;
     padding-right: 50px;
     background-color: rgb(43, 49, 72);
-
 }
 .section5 div{
     padding-right: 50px;
+}
+.footer{
+    background-color: rgb(51, 51, 56);
+    color: #ffffff;
+}
+.block{
+    background-color: white;
+    padding: 15px 80px 15px 30px;
+    border-radius: 5px;
+    color: rgb(155, 154, 154);
+}
+.block h5{
+    color: rgb(247, 45, 79);
+}
+.allignment{
+    padding: 15px;
+}
+.section6{
+    margin-top: 50px;
+    padding-right: 50px;
+    margin-bottom: 150px;
+}
+.sub1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+.btn2{
+    background-color: rgb(247, 45, 79);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 600;
+    margin-left: 350px;
+    border: none;
+}
+.sub2{
+    background-color: rgb(64, 64, 67);
 }
