@@ -9,41 +9,37 @@ a{
 .nav{
     height: 80px;
     width: 100%;
-    padding: 0px 400px 0px 397px;
+    padding: 25px 5px 0px 20px;
     display: inline-flex;
     flex-direction: row;
     background-color: white;
 }
 
 .logo{
-    width: 185px;
-    height: 80px;
+    width: 140px;
 }
 .search{
     width: 650px;
-    height: 40px;
-    margin: 20px 395px 10px 5px;
+    height: 30px;
+    margin: 0px 430px 0px 10px;
     border-color: rgb(214, 214, 240);
     border-top-color: rgb(255, 255, 255);
     border-left-color: rgb(255, 255, 255);
     border-radius: 5px;
     font-size: large;
 }
-.schicon{
-    margin: 35px 5px 0px 20px;
-}
 .dropdown{
     border-style: none; 
     background-color:white;
     font-size: large;
-    padding-right: 19px;
+    margin-left: 25px;
     margin-right: 25px;
+    margin-bottom: 20px;
 }
 .btn{
     background-color: rgb(247, 45, 79);
     color: white;
     height: 30px;
-    margin-top: 25px;
     padding: 0px 15px;
 }
 .menu{
@@ -88,8 +84,8 @@ li{
     height: 400px;
 }
 .xyz{
-    padding-left: 425px;
-    padding-right: 425px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .section4{
     margin-top: 50px;
@@ -122,7 +118,7 @@ li{
 }
 .block{
     background-color: white;
-    padding: 15px 80px 15px 30px;
+    padding: 10px 50px 10px 30px;
     border-radius: 5px;
     color: rgb(155, 154, 154);
 }
@@ -143,15 +139,24 @@ li{
     font-size: larger;
 }
 .btn2{
-    background-color: rgb(247, 45, 79);
+    background-color: rgb(236, 94, 113);
     color: white;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: larger;
-    font-weight: 600;
-    margin-left: 350px;
+    border-radius: 4px;
+    padding: 0px 20px;
+    font-size: large;
+    font-weight: 400;
+    margin-left: 380px;
     border: none;
 }
 .sub2{
     background-color: rgb(64, 64, 67);
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+
+    .xyz{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
 }
