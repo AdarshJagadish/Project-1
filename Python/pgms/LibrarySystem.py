@@ -1,4 +1,4 @@
-user=[{'id': 100, 'name': 'anu', 'email': 'anu@gmail.com', 'phno': '954258625', 'password': 'anu'}, {'id': 100, 'name': 'amal', 'email': 'amal@gmail.com', 'phno': '964582262', 'password': 'amal'}]
+user=[{'id': 100, 'name': 'anu', 'email': 'anu@gmail.com', 'phno': '954258625', 'password': 'anu','books':[]}, {'id': 10, 'name': 'amal', 'email': 'amal@gmail.com', 'phno': '964582262', 'password': 'amal','books':[]}]
 book=[{'book_id': 100, 'book_name': 'wings of fire', 'stock': 4, 'price': 549}, {'book_id': 101, 'book_name': 'mambazham', 'stock': 2, 'price': 249}]
 while True:
     print('''
@@ -83,6 +83,51 @@ while True:
             if i['id']==uname and i['password']==password:
                 print('user login successfull')
                 f=2
+                while True:
+                    print('''
+            1.View Book
+            2.Lend Book
+            3.Return Book
+            4.Books in Hand
+            5.Logout
+    ''')
+                    sub_ch=int(input("enter coice"))
+                    if sub_ch==1:
+                        print(book)
+                    elif sub_ch==2:
+                        id=int(input('enter id'))
+                        f1=0
+                        for j in book:
+                            if j['book_id']==id:
+                                f1=1
+                                if j['stock']>0:
+                                    i['books'].append(id)
+                                    j['stock']-=1
+                                else:
+                                    print('out of stock')
+                        if f1==0:
+                            print('book not available')
+                    elif sub_ch==3:
+                        id=int(input('enter id'))
+                        f1=0
+                        for j in book:
+                            if j['book_id']==id and id in i['books']:
+                                f1=1
+                                j['stock']+=1
+                                i['books'].remove(id)
+                                print('Book Return Successfull')
+                        if f1==0:
+                            print('book not available')
+                    elif sub_ch==4:
+                        if len(i['books'])==0:
+                            print('no books')
+                        else:
+                            print(i['books'])
+                    elif sub_ch==5:
+                        break
+                    else:
+                        print('invalid choice')
+                        
         if f==0:
             print('invalid uname or password')
     elif ch==3:
