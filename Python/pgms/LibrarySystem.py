@@ -43,11 +43,11 @@ while True:
                     else:
                         book_id=book[-1]['book_id']+1
                         # print(id)
-                        book_name=input('enter Book Name')
-                        stock=int(input('enter available Stock'))
-                        price=int(input('enter Price'))
-                        book.append({'book_id':book_id,'book_name':book_name,'stock':stock,'price':price})
-                        # print(book)
+                    book_name=input('enter Book Name')
+                    stock=int(input('enter available Stock'))
+                    price=int(input('enter Price'))
+                    book.append({'book_id':book_id,'book_name':book_name,'stock':stock,'price':price})
+                    # print(book)
                 elif sub_ch==2:
                     id=int(input('enter id'))
                     f1=0
