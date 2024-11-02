@@ -25,7 +25,7 @@ while True:
                 print(students)
     elif ch==2:
         print('*****DELETE STUDENT*****')
-        did=int(input('Enter Admission Number to Delete Student: '))
+        did=input('Enter Admission Number to Delete Student: ')
         flag=0
         for i in students:
             if i['Admission Number']==did:

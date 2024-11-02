@@ -1,0 +1,13 @@
+ creating a simple command-line library management system using Python. The system should allow a user to manage books in a library. The main functionality of the program includes adding, updating, and removing books, as well as viewing all available books and their details.store the details as the format of dictionary inside the list
+
+
+
+
+Welcome to the library Management System!
+1. Add book
+2. Update book
+3. Remove book
+4. View All books
+5. Search book
+6. Exit
+Select an option:
