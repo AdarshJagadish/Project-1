@@ -1,6 +1,8 @@
 students=[{'Admission Number': '1', 'Student Name': 'Shyam', 'Student Age': 21, 'Course Name': 'MD'},{'Admission Number': '2', 'Student Name': 'anu', 'Student Age': 21, 'Course Name': 'MBBS'}]
 while True:
     print('''
+******STUDENT MANAGEMENT SYSTEM******
+
 1. Add Student
 2. Delete Student
 3. Search Student
@@ -52,5 +54,3 @@ while True:
         break
     else:
         print('INVALID OPTION')
-    
-    

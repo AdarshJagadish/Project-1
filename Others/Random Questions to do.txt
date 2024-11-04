@@ -1,0 +1,77 @@
+1. To-Do List Manager (In-Memory Only)
+	Description: A simple task manager that only stores data while the program is running.
+
+	Features:
+	Add tasks with priority levels (e.g., high, medium, low).
+	View tasks sorted by priority.
+	Mark tasks as completed or delete them.
+
+	Skills: Lists, dictionaries, loops, conditionals.
+	# Task: {"name": "Buy groceries", "priority": "High", "completed": False}
+
+2. Simple Calculator
+
+	Description: A basic calculator to perform operations like addition, subtraction, multiplication, and division.
+
+	Features:
+	Take two numbers and an operator (+, -, *, /) from the user.
+	Display the result.
+	Handle invalid input gracefully (e.g., division by zero).
+
+	Skills: Functions, loops, conditionals, exception handling.
+	# User inputs: 10, +, 5
+	# Output: "Result: 15"
+
+3. Number Guessing Game
+
+	Description: A game where the program picks a random number, and the user tries to guess it.
+
+	Features:
+	The program randomly picks a number between 1 and 100.
+	The user guesses, and the program gives hints ("too high" or "too low").
+	Track the number of attempts and display it when the user guesses correctly.
+
+	Skills: Random number generation, loops, conditionals.
+	# Program picks 42
+	# User guesses 50 -> "Too high!"
+	# User guesses 40 -> "Too low!"
+	# User guesses 42 -> "Correct! You guessed it in 3 tries."
+
+4. Multiplication Quiz
+
+	Description: A quiz that asks random multiplication questions and checks the user's answers.
+
+	Features:
+	Generate two random numbers between 1 and 10 for multiplication.
+	Ask the user to solve and check if the answer is correct.
+	Track the score and number of correct answers.
+
+	Skills: Random number generation, loops, conditionals.
+	# Question: "What is 7 * 5?"
+	# User inputs 35 -> "Correct!"
+	# User inputs 30 -> "Incorrect. The answer is 35."
+
+5. Rock, Paper, Scissors Game
+
+	Description: The classic rock, paper, scissors game against the computer.
+
+	Features:
+	The user picks rock, paper, or scissors.
+	The computer randomly picks one as well.
+	Display the winner of the round and keep score.
+
+	Skills: Random number generation, loops, conditionals.
+	# User inputs "rock", computer picks "scissors" -> "You win! Rock beats scissors."
+
+6. Countdown Timer
+
+	Description: A timer that counts down from a specified number of seconds.
+
+	Features:
+	User inputs the number of seconds.
+	The program counts down to zero, displaying each second in real-time.
+	When the timer ends, display "Time's up!"
+
+	Skills: Loops, time module for delays.
+	# User inputs 5
+	# Output: 5, 4, 3, 2, 1 -> "Time's up!"
