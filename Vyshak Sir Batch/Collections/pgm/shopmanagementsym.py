@@ -14,6 +14,7 @@ while True:
     ch=int(input('Enter a choice'))
     if ch==1:
         print('**********ADD PRODUCT**********')
+        i_id=int(input(''))
         
     elif ch==2:
         ryd
