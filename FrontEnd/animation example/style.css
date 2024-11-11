@@ -33,3 +33,12 @@ margin-top: 200px;
     90%{top: 100px;}
     100%{top: 150px;}
 }
+
+
+.btn{
+    background-color: aquamarine;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 0px;
+}

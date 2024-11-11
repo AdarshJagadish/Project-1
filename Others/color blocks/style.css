@@ -1,0 +1,20 @@
+.main{
+    background-color: black;
+    margin: 50px;
+}
+.sub{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 50px 10px;
+} 
+.sub2{
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.block {
+    width: 110px;
+    height: 150px; 
+    margin: 5px;
+}
