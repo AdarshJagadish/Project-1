@@ -3,6 +3,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.font{
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
 .nav{
     display: flex;
     flex-direction: row;
