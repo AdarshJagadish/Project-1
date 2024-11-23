@@ -1,5 +1,5 @@
 import sqlite3
-con=sqlite3.connect('Vyshak Sir Batch/DataBase/Sqlite3/work/std.db')
+con=sqlite3.connect('Vyshak Sir Batch/DataBase/Sqlite3/work/student/std.db')
 try:
     con.execute('create table students(st_id int,st_name text,st_email text,st_phno)')
 except:
