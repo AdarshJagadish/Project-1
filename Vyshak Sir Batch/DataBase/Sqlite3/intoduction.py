@@ -10,7 +10,7 @@ except:
 #     name=input('Enter user name: ')
 #     email=input('Enter user email: ')
 #     phno=int(input('Enter user phno: '))
-    # con.execute('insert into u_detailes values(?,?,?,?)',(id,name,email,phno))
+#     con.execute('insert into u_detailes values(?,?,?,?)',(id,name,email,phno))
 
 # con.execute('update u_detailes set user_phno="9823476159" where user_id=2')
 
@@ -24,7 +24,12 @@ except:
 #     print('{:<4}{:<12}{:<30}{:<12}'.format(i[0],i[1],i[2],i[3]))
 #     print('*'*60)
 
-data=con.execute('select count(*) from u_detailes')
-for i in data:
-    print(i)
+# data=con.execute('select count(*) from u_detailes')
+# for i in data:
+#     print(i)
+
+# name=con.execute('select * from u_detailes where user_name like "a%"')
+# for i in name:
+#     print(i[1])
+
 con.commit()

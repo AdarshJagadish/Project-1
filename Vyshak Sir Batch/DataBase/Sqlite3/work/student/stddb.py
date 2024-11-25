@@ -47,7 +47,22 @@ data=con.execute('select * from students')
 # for i in data:
 #     print(i)
     
-data=con.execute('select avg(st_id) from students')
+# data=con.execute('select avg(st_id) from students')
+# for i in data:
+#     print(i)
+
+try:
+    con.execute("create table mark(st_id int,malayalam int,hindi int,english int)")
+except:
+    pass
+# for i in range(1):
+#     id=int(input('id'))
+#     mal=int(input('mal'))
+#     hindi=int(input('hindi'))
+#     eng=int(input('eng'))
+#     con.execute('insert into mark values(?,?,?,?)',(id,mal,hindi,eng))
+
+data=con.execute('select students.st_id,students.st_name,mark.malayalam,mark.hindi,mark.english from students join mark on students.st_id=mark.st_id')
 for i in data:
     print(i)
 con.commit() 
