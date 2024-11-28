@@ -1,0 +1,49 @@
+MVT- Model View Template(Architectural Patern)
+Django
+	easy to maintain
+	robust
+	scalable
+ 
+Features
+	1) ORM- Object Relational Mapping
+	    Used to intract with DB & the result will be objects
+
+	2) URL Routing- 
+	    It is the process of mapping urls(web addresses) to specific fns or classes
+
+	3) Built-in Admin Panel
+	 
+	4) Templates
+	 
+	5) Authentication & Autherization
+
+	6) Security Features_
+	    Privents From:
+	     CSRF- Cross Site Request Forgery  --------\
+	     XSS- Cross Site Scripting                  --------  Cyber Attacks
+	     SQL Injuction                    ---------/
+
+	7) Built-in User Model
+
+
+
+Virtual Environment Creation
+	Windows:
+	 -> Open terminal outside repository
+	 -> python -m venv env
+	 -> env\scripts\activate
+	 -> pip install django
+
+	Linux:
+	 -> Open terminal outside repository
+	 -> sudo apt install python3.10-venv
+	 -> python3 -m venv env
+	 -> source env/bin/activate
+	 -> sudo apt install django 
+		     or
+	    pip install django
+
+project creation:
+	django-admin start project project_name
+run project:
+	python manage.py runserver
