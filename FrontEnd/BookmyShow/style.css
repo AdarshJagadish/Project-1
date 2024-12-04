@@ -72,7 +72,7 @@ li{
     background-color: rgb(196, 193, 193);
     margin:0px;
     padding:0px;
-    height: 410px;
+    height: 335px;
 }
 .cw{
     padding: 15px;
@@ -85,13 +85,14 @@ li{
 }
 .section4{
     margin-top: 50px;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 .section4 div{
-    padding-right: 50px;
+    padding-right: 20px;
 }
 .poster{
-    width: 270px;
+    padding-left: auto;
+    width: 200px;
     border-radius: 10px;
     margin-bottom: 15px;
 }
@@ -146,73 +147,4 @@ li{
 }
 .sub2{
     background-color: rgb(64, 64, 67);
-}
-
-@media only screen and (max-width: 992px) and (min-width: 768px) {
-
-    .nav{
-        height: 65px;
-        width: 100%;
-        padding: 15px 5px 0px 25px;
-        display: inline-flex;
-        flex-direction: row;
-        background-color: white;
-    }
-    .search{
-        width: 350px;
-        height: 30px;
-        margin: 0% 2% 0% 2%;
-        border-color: rgb(214, 214, 240);
-        border-top-color: rgb(255, 255, 255);
-        border-left-color: rgb(255, 255, 255);
-        border-radius: 5px;
-        font-size: medium;
-    }
-    .dropdown{
-        border-style: none; 
-        background-color:white;
-        font-size:medium ;
-        margin: 0% 4% 2% 0%;
-    }
-    .btn{
-        background-color: rgb(247, 45, 79);
-        color: white;
-        height: 50%;
-        padding: 0fr 2fr;
-        font-size: small;
-    }
-    .menu{
-        display: inline-block;
-        flex-direction: column;
-    }
-    .xyz{
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-    .section4{
-        margin-top: 50px;
-        padding-right: 50px;
-    }
-    .section4 div{
-        padding-right: 50px;
-    }
-    .poster{
-        width: 270px;
-        border-radius: 10px;
-        margin-bottom: 15px;
-    }
-    .des{
-        font-size: 19px;
-        color: rgb(90, 88, 88);
-    }
-    .section5{
-        color: #ffffff;
-        margin-top: 50px;
-        padding-right: 50px;
-        background-color: rgb(43, 49, 72);
-    }
-    .section5 div{
-        padding-right: 50px;
-    }
-
 }

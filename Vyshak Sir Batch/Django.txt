@@ -44,6 +44,6 @@ Virtual Environment Creation
 	    pip install django
 
 project creation:
-	django-admin start project project_name
+	django-admin startproject project_name
 run project:
 	python manage.py runserver

@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap"
+            rel="stylesheet">
         <title>Login</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -36,19 +38,25 @@
                     <h2 style="padding: 10px 90px;" class="font">LOG IN</h2>
                     <form action>
                         <input type="email" placeholder="Email" id="Email"
-                            class="cred">
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                            class="cred"
+                            title="Enter a valid email address (e.g., user@example.com)">
                         <br>
                         <br>
                         <input type="password" placeholder="Password"
-                            id="password" class="cred">
+                            id="password"
+                            pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                            class="cred"
+                            title="Password must be at least 8 characters long, with at least one uppercase letter, one lowercase letter, one number, and one special character.">
                         <br>
                         <input type="checkbox"
                             style="color: rgb(45, 47, 61);">remember me
                         <div style="margin: -18px 0px 0px 155px;">forgot
                             password?</div>
-                        <input type="button" value="Login" class="button2">
+                        <input type="submit" value="Login" class="button2">
                     </form>
-                    <p style="margin-left: 9px;" class="font">Don't have an account, Register</p>
+                    <p style="margin-left: 9px;" class="font">Don't have an
+                        account, Register</p>
                 </div>
             </div>
         </div>

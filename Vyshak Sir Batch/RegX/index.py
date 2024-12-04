@@ -1,0 +1,18 @@
+import re
+a="Welcome to the world of python"
+# print(re.split('\s',a))
+# print(re.split('l',a))
+# print(re.sub('World','world',a))
+# print(re.findall('l',a))
+# print(re.search('to',a))
+# print(re.search('w.',a))
+# print(re.search('w.*',a))
+# print(re.search('w.+',a))
+# print(re.search('w.?',a))
+# print(re.search('[a-z]',a))
+# print(re.search('[A-Z]',a))
+# print(re.search('[A-Z].*',a))
+# print(re.search('[A-Za-z0-9]',a))
+# print(re.search('[A-Z][a-z][0-9]',a))
+# print(re.search('A.{2}',a))
+# print(re.search('[A-Z].{2}',a))
